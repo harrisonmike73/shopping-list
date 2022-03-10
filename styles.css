@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background:rgb(210, 140, 140);   
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.groceries{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries{
+    font-size: 2rem;
+    color: black;
+}
+
+.groceries input{
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+/*Changes sizes so that the page fits on mobile better*/
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    /*brings the icon size down*/
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    /*brings input box size down*/
+    .groceries input{
+        font-size: 1rem;
+    }
+    /*brings item list size down
+    also reduces the margin size so items fit on screen*/
+    #allItem h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+
+}
