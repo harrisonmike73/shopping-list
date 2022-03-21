@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
 
-<charset="utf-8">
     <title>Shopping List</title>
+  </head>
+  <body>
 
-    </head>
-
-    <body>
-        <h3>
-            <ul>
-                <li>Almond Milk</li>
-                <li>Eggs</li>
-                <li>More Eggs</li>
-                <li>PB Fit</li>
-                <li>20 LBS of Chicken</li>
-                <li>Spinach</li>
-            </ul>
-
-        </h3>
-
-    </body>
-
+    <div class="container">
+      <div class="groceries">
+      <h1 style="text-align: center;">My Shopping List</h1>
+      <br>
+      <div style="text-align: center;">
+      <i id="pencil" class="fa-solid fa-pencil"></i>
+          </i><input id="userInput" type="text">
+      </div>
+      <br>
+      <div id="allItems"></div>
+      </div>
+    
+    <script src="script.js"></script>
+  </body>
 </html>
