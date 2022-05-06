@@ -6,7 +6,7 @@ const userInput = document.getElementById("userInput");
 
 //Allows user to click pencil icon to delete full list of items
 pencil.addEventListener("click", function(){
-  allItems.innerHTML = "";
+  allItem.innerHTML = "";
 })
 
 //Allows user to click "Enter" to add new list item
