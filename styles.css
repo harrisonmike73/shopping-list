@@ -61,8 +61,8 @@ body{
     .groceries input{
         font-size: 1rem;
     }
-    /*brings item list size down
-    also reduces the margin size so items fit on screen*/
+    /*brings item list size down*/
+    /*also reduces the margin size so items fit on screen*/
     #allItem h2{
         margin-left: 25px;
         font-size: 1.5rem;
